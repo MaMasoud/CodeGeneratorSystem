@@ -53,6 +53,6 @@ This project is built upon the Flask web framework and utilizes the Pillow libra
 
 ## License
 
-This project operates under the [MIT License](LICENSE).
+This project operates under the [MIT License](https://opensource.org/licenses/MIT).
 
 Feel free to explore, contribute, and enhance the project as needed. Happy coding!
