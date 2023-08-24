@@ -23,8 +23,6 @@ Before you begin, ensure you have the following in place:
 
 pip install Flask Pillow
 
-markdown
-Copy code
 
 ## Usage
 
