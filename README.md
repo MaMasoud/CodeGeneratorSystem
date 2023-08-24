@@ -1,1 +1,60 @@
-# Image Code Generator using Flask\n\nThis is a simple web application built using Flask that allows users to generate images with codes from a CSV file.\n\n## Features\n\n- Upload an input image and a CSV file containing codes.\n- Customize font size, font color, and code position on the image.\n- Process the CSV file and generate images with codes embedded.\n\n## Prerequisites\n\n- Python 3.x\n- Flask\n- Pillow (PIL)\n\n## Installation\n\n1. Clone the repository or download the ZIP file.\n2. Install the required packages by running:\n\n   ```\n   pip install Flask Pillow\n   ```\n\n## Usage\n\n1. Run the Flask application:\n\n   ```\n   python app.py\n   ```\n\n2. Open a web browser and navigate to `http://localhost:5000`.\n\n3. Follow the on-screen instructions to upload an input image and a CSV file, and customize font settings.\n\n4. Click "Process" to generate images with embedded codes.\n\n5. Check the "Result" page to view and download the generated images.\n\n## Project Structure\n\n- `app.py`: The main Flask application file.\n- `static/`: Static assets including uploaded files and generated images.\n- `templates/`: HTML templates for rendering pages.\n\n## Acknowledgments\n\nThis project uses the Flask web framework and the Pillow library for image manipulation.\n\n## License\n\nThis project is licensed under the [MIT License](LICENSE).
+# Image Code Generator using Flask
+
+Welcome to the **Image Code Generator** – a user-friendly web application developed with Flask. This tool empowers users to effortlessly generate images with embedded codes sourced from a CSV file.
+
+## Key Features
+
+- **Upload**: Seamlessly upload an input image and a CSV file containing the desired codes.
+- **Customization**: Tailor your image with options to adjust font size, font color, and code position.
+- **Code Integration**: The CSV file is processed to generate images with the embedded codes.
+
+## Prerequisites
+
+Before you begin, ensure you have the following in place:
+
+- **Python 3.x**
+- **Flask Framework**
+- **Pillow (PIL) Library**
+
+## Installation
+
+1. Clone this repository or download the ZIP file.
+2. Install the necessary packages by executing the following command:
+
+pip install Flask Pillow
+
+markdown
+Copy code
+
+## Usage
+
+1. Launch the Flask application:
+
+python app.py
+
+
+2. Open a web browser and navigate to `http://localhost:5000`.
+
+3. Follow the on-screen instructions to upload your chosen input image and the accompanying CSV file. Customize font settings to match your preferences.
+
+4. Click the "Process" button to initiate the generation of images with embedded codes.
+
+5. Visit the "Result" page to review and download the newly generated images.
+
+## Project Structure
+
+The project directory consists of the following elements:
+
+- `app.py`: The core Flask application file.
+- `static/`: Houses static assets such as uploaded files and the resultant images.
+- `templates/`: Contains HTML templates responsible for page rendering.
+
+## Acknowledgments
+
+This project is built upon the Flask web framework and utilizes the Pillow library for image manipulation.
+
+## License
+
+This project operates under the [MIT License](LICENSE).
+
+Feel free to explore, contribute, and enhance the project as needed. Happy coding!
