@@ -20,9 +20,9 @@ Before you begin, ensure you have the following in place:
 
 1. Clone this repository or download the ZIP file.
 2. Install the necessary packages by executing the following command:
-
-pip install Flask Pillow
-
+```
+$ pip install Flask Pillow
+```
 
 ## Usage
 
