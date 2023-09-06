@@ -107,6 +107,22 @@
       }
       */
 
+      select {
+        padding: 5px;
+        border: 1px solid #cccccc;
+        border-radius: 6px;
+        font-size: 16px;
+        margin-left: 10px;
+        width: 100%;
+      }
+      option {
+        padding: 5px;
+        border: 1px solid #cccccc;
+        border-radius: 6px;
+        font-size: 16px;
+        margin-left: 10px;
+      }
+
       .instructions {
         font-size: 12px;
         color: #888888;
@@ -198,6 +214,12 @@
                 id="img"
               />
               <label for="img" class="lable-photo">اختر صورة</label>
+            </div>
+            <div class="type" style="text-align: center;">
+              <select name="p-type" id="p-type">
+                <option value="print">Print</option>
+                <option value="a4">A4</option>
+              </select>
             </div>
             <label for="font_size">عدد الاكواد:</label>
             <input type="number" name="num" id="font_size" value="20" max="100" />

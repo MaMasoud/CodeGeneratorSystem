@@ -42,13 +42,7 @@
                     </div>
                     <div class="input-group">
                         <label for="password">كلمة المرور</label>
-                        <input type="pasword" name="password" id="password" placeholder="كلمة المرور">
-                        <div class="icon-pass">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-                                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-                                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-                            </svg>
-                        </div>
+                        <input type="text" name="password" id="password" placeholder="كلمة المرور">
                     </div>
                     <div class="input-group">
                         <label for="Host">Host</label>
@@ -64,17 +58,33 @@
                     </div>
                     <div class="input-group">
                         <label for="database-password">كلمة المرور (قواعد البيانات)</label>
-                        <input type="password" name="database-password" id="database-password" placeholder="?pc'DA9^.Z2?8">
-                        <div class="icon-pass">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-                                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-                                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-                            </svg>
-                        </div>
+                        <input type="text" name="database-password" id="database-password" placeholder="?pc'DA9^.Z2?8">
                     </div>
                     <div class="input-group">
-                        <label for="img">اسم المستخدم (قواعد البيانات)</label>
-                        <input type="file" name="img" accept=".jpg, .jpeg, .png, .gif" id="img">
+                        <div class="file-input">
+                            <label class="file-label" for="img"><strong
+                                >سحب وإفلات أو اختيار صورة<svg
+                                  style="margin: 0 0 0 10px"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="16"
+                                  height="16"
+                                  fill="currentColor"
+                                  class="bi bi-image"
+                                  viewBox="0 0 16 16"
+                                >
+                                  <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                                  <path
+                                    d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z"
+                                  /></svg></strong
+                            ></label>
+                            <input
+                              type="file"
+                              name="img"
+                              accept=".jpg, .jpeg, .png, .gif"
+                              id="img"
+                            />
+                            <label for="img" class="lable-photo">اختر صورة</label>
+                          </div>
                     </div>
                 </form>
             </div>
